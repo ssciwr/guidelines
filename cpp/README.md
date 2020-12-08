@@ -18,11 +18,14 @@ Here are our suggested default choices for build systems and third party librari
 - Continuous Integration: [GitHub Actions](https://github.com/features/actions)
   - well integrated with Github
 
-Our [c++ template repository](https://github.com/ssciwr/cpp-project-template) is a simple way to 
-start a new C++ project with all of the above already set up.
-
 For each choice there are of course many alternatives, each with their pros and cons, but these represent a
 sensible default choice for the vast majority of C++ projects.
+
+Our [C++ Project Template](https://github.com/ssciwr/cpp-project-template) is a simple way to
+start a new C++ project with all of the above already set up - just click on the green `Use this template` button.
+
+If you are looking for more features such as python bindings, or alternative CI or git hosting providers,
+see our [C++ Project Cookiecutter](https://github.com/ssciwr/cookiecutter-cpp-project).
 
 ## Recommended third party libraries
 
