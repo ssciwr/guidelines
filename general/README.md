@@ -20,4 +20,4 @@ Refactoring means that previously implemented routines or legacy code is updated
 
 ## Code review
 
-Code review - involving your collaborators in any changes you made to the code and vice versa - increases the chance of errors being detected early. Furthermore, it also aids knowledge transfer and keeps you up to date what features are being implemented. Code review is easy to incorporate in your work flow through `github actions`.
+Code review - involving your collaborators in any changes you made to the code and vice versa - increases the chance of errors being detected early. Furthermore, it also aids knowledge transfer and keeps you up to date what features are being implemented. Code review is easy to incorporate in your work flow through `github pull requests`.
