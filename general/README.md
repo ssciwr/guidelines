@@ -8,7 +8,7 @@ Any software that is being actively developed should be under version control. V
 
 ## Documentation
 
-A good documentation is detrimental for ensuring users know what to do with the code, and applying it to the correct use cases. It will save time in the long run, as code by itself is rarely obvious, and it will help outline dependencies.
+A good documentation is detrimental for ensuring users know what to do with the code, and applying it to the correct use cases. It will save time in the long run, as code by itself is rarely obvious, and it will help outline dependencies. Depending on the programming language used, we recommend different tools like `doxygen`, `sphinx`, or using markdown/a wiki.
 
 ## Testing
 
@@ -16,8 +16,8 @@ A good documentation is detrimental for ensuring users know what to do with the 
 
 ## Refactoring
 
-Refactoring means that previously implemented routines or legacy code is updated and improved as new parts are added to a software. This allows for a flexible adaptation of the software and ensures that the dependencies are up-to-date. "Always leave code better than you found it" ([source](https://biratkirat.medium.com/step-8-the-boy-scout-rule-robert-c-martin-uncle-bob-9ac839778385)). Make use of a good coding editor and linting to keep your source code clean, and use profilers to check the computational bottlenecks.
+Refactoring means that previously implemented routines or legacy code is updated and improved as new parts are added to a software. This allows for a flexible adaptation of the software and ensures that the dependencies are up-to-date. "Always leave code better than you found it" ([source](https://biratkirat.medium.com/step-8-the-boy-scout-rule-robert-c-martin-uncle-bob-9ac839778385)). Make use of a good coding editor and linting to keep your source code clean, and use profilers to check the computational bottlenecks. For example, `VS Code` together with linting extensions and `valgrind` for profiling.
 
 ## Code review
 
-Code review - involving your collaborators in any changes you made to the code and vice versa - increases the chance of errors being detected early. Furthermore, it also aids knowledge transfer and keeps you up to date what features are being implemented.
+Code review - involving your collaborators in any changes you made to the code and vice versa - increases the chance of errors being detected early. Furthermore, it also aids knowledge transfer and keeps you up to date what features are being implemented. Code review is easy to incorporate in your work flow through `github actions`.
