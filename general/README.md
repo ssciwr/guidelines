@@ -16,7 +16,7 @@ Good documentation is essential for ensuring users know what to do with the code
 
 ## Refactoring
 
-Refactoring means that previously implemented routines or legacy code is updated and improved as new parts are added to a software. This allows for a flexible adaptation of the software and ensures that the dependencies are up-to-date. "Always leave code better than you found it" ([source](https://biratkirat.medium.com/step-8-the-boy-scout-rule-robert-c-martin-uncle-bob-9ac839778385)). Make use of a good coding editor and linting to keep your source code clean, and use profilers to check the computational bottlenecks. For example, `VS Code` together with linting extensions and `valgrind` for profiling.
+Refactoring means that previously implemented routines or legacy code is updated and improved as new parts are added to a software. This allows for a flexible adaptation of the software and ensures that the dependencies are up-to-date. "Always leave code better than you found it" ([source](https://biratkirat.medium.com/step-8-the-boy-scout-rule-robert-c-martin-uncle-bob-9ac839778385)). Make use of a good coding editor (such as `VS Code`) and linting to keep your source code clean, and use profilers to check the computational bottlenecks.
 
 ## Code review
 
