@@ -12,7 +12,7 @@ Good documentation is essential for ensuring users know what to do with the code
 
 ## Testing
 
-(Automated) testing ensures that errors are detected early and that results are reproducible. Implementing the tests and keeping them updated requires effort, but will pay off in the long run. Reproducibility is a requirement for good scientific practices. Testing also allows for continuous integration/continuos development (deployment) (CI/CD).
+(Automated) testing ensures that errors are detected early and that results are reproducible. Implementing the tests and keeping them updated requires effort, but will pay off in the long run. Reproducibility is a requirement for good scientific practices. Testing also makes refactoring easier, and allows for continuous integration/continuous development (deployment) (CI/CD).
 
 ## Refactoring
 
