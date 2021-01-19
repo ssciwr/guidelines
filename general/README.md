@@ -8,7 +8,7 @@ Any software that is being actively developed should be under version control. V
 
 ## Documentation
 
-A good documentation is detrimental for ensuring users know what to do with the code, and applying it to the correct use cases. It will save time in the long run, as code by itself is rarely obvious, and it will help outline dependencies. Depending on the programming language used, we recommend different tools like `doxygen`, `sphinx`, or using markdown/a wiki.
+Good documentation is essential for ensuring users know what to do with the code, and are applying it to the correct use cases. It will save time in the long run, as code by itself is rarely obvious, and it will help outline dependencies. Depending on the programming language used, we recommend different tools like `doxygen`, `sphinx`, or using markdown/a wiki.
 
 ## Testing
 
