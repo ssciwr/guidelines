@@ -17,7 +17,7 @@ Here are our suggested default choices for build systems and third party librari
 - Continuous Integration: [GitHub Actions](https://github.com/features/actions)
   - well integrated with Github
 - Documentation: [Sphinx](https://www.sphinx-doc.org/en/master/)
-  - **The** default for python documenation
+  - The default for python documenation
 - Python standard: 3.7 (or higher)
  
 For each choice there are of course many alternatives, each with their pros and cons, but these represent a
@@ -45,9 +45,9 @@ for the project, each person contributing to a project can use whichever tools t
 
 There is a vast abundance of available modules in python. For common problems in scientific computing, use
 
-- [numpy](https://numpy.org/)
+- [NumPy](https://numpy.org/)
   - use case: array and matrix operations, mathematical functions
-- [scipy](https://www.scipy.org/)
+- [SciPy](https://www.scipy.org/)
   - use case: enhanced linear algebra, additional mathematical functions compared to numpy
 - [pandas](https://pandas.pydata.org/)
   - use case: statistical data analysis and data transformation

@@ -7,3 +7,4 @@ The [General Guidelines](general/README.md) apply to any project, regardless of 
 ## Language specific guidelines
 
 - [C++](cpp/README.md)
+- [python](python/README.md)
