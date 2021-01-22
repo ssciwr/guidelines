@@ -13,7 +13,7 @@ Here are our suggested default choices for build systems and third party librari
   - [unittest](https://docs.python.org/3/library/unittest.html)
     - already part of the python standard library  
   - [pytest](https://docs.pytest.org/en/stable/)
-    - offers all of the functionality as unittest and additional tools for more advanced testing requirements
+    - offers all of the functionality of unittest and additional tools for more advanced testing requirements
 - Continuous Integration: [GitHub Actions](https://github.com/features/actions)
   - well integrated with Github
 - Documentation: [Sphinx](https://www.sphinx-doc.org/en/master/)
