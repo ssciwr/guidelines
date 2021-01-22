@@ -18,7 +18,7 @@ Here are our suggested default choices for build systems and third party librari
   - well integrated with Github
 - Documentation: [Sphinx](https://www.sphinx-doc.org/en/master/)
   - The default for python documenation
-- Python standard: 3.7 (or higher)
+- Python version: 3.7 (or higher)
  
 For each choice there are of course many alternatives, each with their pros and cons, but these represent a
 sensible default choice for the vast majority of python projects.
