@@ -49,6 +49,8 @@ There is a vast abundance of available modules in python. For common problems in
   - use case: array and matrix operations, mathematical functions
 - [SciPy](https://www.scipy.org/)
   - use case: enhanced linear algebra, additional mathematical functions compared to numpy
+- [SymPy](https://www.sympy.org/)
+  - use case: symbolic math (e.g. differentiation)
 - [pandas](https://pandas.pydata.org/)
   - use case: statistical data analysis and data transformation
 - [seaborn](https://seaborn.pydata.org/)
