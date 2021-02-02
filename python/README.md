@@ -37,7 +37,7 @@ for the project, each person contributing to a project can use whichever tools t
   - [Sublime Text](https://www.sublimetext.com/): free but will ask you to purchase from time to time
 - Code formatting
   - Don't do this manually, and especially don't spend time debating how code should be formatted!
-  - Just pick a tool that does it automatically (e.g. your IDE, or [autopep8](https://pypi.org/project/autopep8/))
+  - Just pick a tool that does it automatically (e.g. your IDE, or [autopep8](https://pypi.org/project/autopep8/), or use [Black](https://github.com/psf/black)
 - Linting
   - Keep your code clean using linters such as [flake8](https://pypi.org/project/flake8/)
 
