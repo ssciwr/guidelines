@@ -9,7 +9,7 @@ Here are our suggested default choices for build systems and third party librari
   - de facto standard for open source software
   - start from our [C++ template repository](https://github.com/ssciwr/cpp-project-template)
   - private repos also available
-- Build system: [CMake](https://cmake.org/)
+- Build system: [CMake](cmake.md)
   - de facto standard for C++
   - widely used and supported
   - cross-platform
