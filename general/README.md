@@ -1,6 +1,6 @@
 # General Guidelines
 
-The general guidelines provide an overview of sustainable software development and good scientific practice in research software engineering. They provide a general framework which researchers should adhere to when writing scientific software. However, each programming language introduces its own flavor and so the tools that are recommended can be language-specific. Please check the guidelines for the language that you are using. Currently, [C++](../cpp/README.md) and [python](../python/README.md) are available. Please open an issue for requesting guides for further programming languages.
+The general guidelines provide an overview of sustainable software development and good scientific practice in research software engineering. They provide a general framework which researchers should adhere to when writing scientific software. However, each programming language introduces its own flavor and so the tools that are recommended can be language-specific. Please check the guidelines for the language that you are using. Currently, [C++](../cpp/README.md) and [Python](../python/README.md) are available. Please open an issue for requesting guides for further programming languages.
 
 ## Version control
 

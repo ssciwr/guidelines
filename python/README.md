@@ -1,5 +1,5 @@
 # Python Coding Guidelines
-Our recommendations for creating and maintaining reliable scientific software in python.
+Our recommendations for creating and maintaining reliable scientific software in Python.
 
 ## Good default choices
 
@@ -7,24 +7,24 @@ Here are our suggested default choices for build systems and third party librari
 
 - Version control: [GitHub](https://github.com/)
   - de facto standard for open source software
-  - start from our [python template repository](https://github.com/ssciwr/python-project-template)
+  - start from our [Python template repository](https://github.com/ssciwr/python-project-template)
   - private repos also available
 - Testing framework: 
   - [unittest](https://docs.python.org/3/library/unittest.html)
-    - already part of the python standard library  
+    - already part of the Python standard library
   - [pytest](https://docs.pytest.org/en/stable/)
     - offers all of the functionality of unittest and additional tools for more advanced testing requirements
 - Continuous Integration: [GitHub Actions](https://github.com/features/actions)
   - well integrated with Github
 - Documentation: [Sphinx](https://www.sphinx-doc.org/en/master/)
-  - The default for python documenation
+  - The default for Python documenation
 - Python version: 3.7 (or higher)
  
 For each choice there are of course many alternatives, each with their pros and cons, but these represent a
-sensible default choice for the vast majority of python projects.
+sensible default choice for the vast majority of Python projects.
 
 Our [Python Project Template](https://github.com/ssciwr/python-project-template) is a simple way to
-start a new python project with all of the above already set up - just click on the green `Use this template` button.
+start a new Python project with all of the above already set up - just click on the green `Use this template` button.
 
 ## Tooling
 
@@ -43,7 +43,7 @@ for the project, each person contributing to a project can use whichever tools t
 
 ## Recommended libraries
 
-There is a vast abundance of available modules in python. For common problems in scientific computing, use
+There is a vast abundance of available modules in Python. For common problems in scientific computing, use
 
 - [NumPy](https://numpy.org/)
   - use case: array and matrix operations, mathematical functions
