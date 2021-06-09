@@ -9,10 +9,11 @@ Here are our suggested default choices for build systems and third party librari
   - de facto standard for open source software
   - start from our [C++ template repository](https://github.com/ssciwr/cpp-project-template)
   - private repos also available
-- Build system: [CMake](cmake.md)
+- Build system: [CMake](https://cmake.org/)
   - de facto standard for C++
   - widely used and supported
   - cross-platform
+  - Have a look at [our dedicated CMake recommendations](cmake.md)
 - Testing framework: [Catch2](https://github.com/catchorg/Catch2)
   - simple to setup and to use
 - Continuous Integration: [GitHub Actions](https://github.com/features/actions)
