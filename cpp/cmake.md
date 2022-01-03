@@ -29,6 +29,8 @@ For people already using CMake who would like to learn and apply modern CMake be
 - [Effective Modern CMake](https://gist.github.com/mbinna/c61dbb39bca0e4fb7d1f73b0d66a4fd1)
 - [It's Time To Do CMake Right](https://pabloariasal.github.io/2018/02/19/its-time-to-do-cmake-right/)
 - Modern CMake for modular design, Mathieu Ropert: [video](https://www.youtube.com/watch?v=eC9-iRN2b04), [slides](https://github.com/CppCon/CppCon2017/blob/master/Tutorials/Using%20Modern%20CMake%20Patterns%20to%20Enforce%20a%20Good%20Modular%20Design/Using%20Modern%20CMake%20Patterns%20to%20Enforce%20a%20Good%20Modular%20Design%20-%20Mathieu%20Ropert%20-%20CppCon%202017.pdf)
+- More Modern CMake, Deniz Bahadir: [video](https://www.youtube.com/watch?v=y7ndUhdQuU8)
+- Oh No! More Modern CMake, Deniz Bahadir: [video](https://www.youtube.com/watch?v=y9kSr5enrSk)
 
 ## Advanced talks
 For people writing C++ libraries:
