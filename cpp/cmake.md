@@ -34,3 +34,4 @@ For people already using CMake who would like to learn and apply modern CMake be
 For people writing C++ libraries:
 - Effective CMake, Daniel Pfeifer: [video](https://www.youtube.com/watch?v=bsXLMQ6WgIk&t=2797s), [slides](https://github.com/boostcon/cppnow_presentations_2017/blob/master/05-19-2017_friday/effective_cmake__daniel_pfeifer__cppnow_05-19-2017.pdf)
 - Deep CMake for Library Authors, Craig Scott: [video](https://www.youtube.com/watch?v=m0DwB4OvDXk), [slides](https://github.com/CppCon/CppCon2019/blob/master/Presentations/deep_cmake_for_library_authors/deep_cmake_for_library_authors__craig_scott__cppcon_2019.pdf)
+- Modern CMake Modules, Bret Brown: [video](https://www.youtube.com/watch?v=IZXNsim9TWI)
