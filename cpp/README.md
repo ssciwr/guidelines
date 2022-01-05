@@ -44,6 +44,7 @@ for the project, each person contributing to a project can use whichever tools t
 - Code formatting
   - Don't do this manually, and especially don't spend time debating how code should be formatted!
   - Just pick a tool that does it automatically (e.g. your IDE, or [clang-format](https://clang.llvm.org/docs/ClangFormat.html))
+  - [pre-commit](https://pre-commit.com/) and [pre-commit.ci](https://pre-commit.ci/) is a great way to do this
 
 ## Recommended third party libraries
 
