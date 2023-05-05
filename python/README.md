@@ -16,15 +16,19 @@ Here are our suggested default choices for build systems and third party librari
     - offers all of the functionality of unittest and additional tools for more advanced testing requirements
 - Continuous Integration: [GitHub Actions](https://github.com/features/actions)
   - well integrated with Github
-- Documentation: [Sphinx](https://www.sphinx-doc.org/en/master/)
-  - The default for Python documenation
-- Python version: 3.7 (or higher)
+- Documentation: [Sphinx](https://www.sphinx-doc.org/)
+  - the default for Python documenation
+- Python versions:
+  - official list of [supported versions](https://devguide.python.org/versions/#supported-versions)
  
 For each choice there are of course many alternatives, each with their pros and cons, but these represent a
 sensible default choice for the vast majority of Python projects.
 
 Our [Python Project Template](https://github.com/ssciwr/python-project-template) is a simple way to
 start a new Python project with all of the above already set up - just click on the green `Use this template` button.
+
+For more advanced features such as automated pypi deployment and package versioning integrated with git
+see our [Python Package Cookiecutter](https://github.com/ssciwr/cookiecutter-python-package)
 
 ## Tooling
 
