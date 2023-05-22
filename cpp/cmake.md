@@ -19,6 +19,10 @@ It can also be helpful to take a look at a simple example CMake project:
 - [pabloariasal/modern-cmake-sample](https://github.com/pabloariasal/modern-cmake-sample)
 - [ssciwr/cpp-project-template](https://github.com/ssciwr/cpp-project-template)
 
+If you are starting a new project check out our C++ Project Cookiecutter:
+
+- [C++ Project Cookiecutter](https://github.com/ssciwr/cookiecutter-cpp-project)
+
 ## Official Documentation
 The official CMake [documentation](https://cmake.org/cmake/help/latest/) is a very useful and complete source of reference information,
 for example if you want to look up the specific details of a particular command. It can also be a bit overwhelming, and
