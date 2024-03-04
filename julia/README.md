@@ -46,8 +46,8 @@ Julia is a relatively young language with a smaller community than, say, Python,
 ## Recommended libraries
  
 - Arrays and vectors (numpy analogon): 
-    - standard library core contains classes for dense, n-dimensional arrays analogous to numpy-arrays. 
-    - [SparseArrays.jl](https://docs.julialang.org/en/v1/stdlib/SparseArrays/): Sparse vectors and - matrices are supported through
+    - [standard library core](https://docs.julialang.org/en/v1/base/arrays/) contains classes for dense, n-dimensional arrays analogous to numpy-arrays. 
+    - [SparseArrays.jl](https://docs.julialang.org/en/v1/stdlib/SparseArrays/): Part of the standard library. Supports sparse vectors and matrices.
     - [Tensors.jl](https://github.com/Ferrite-FEM/Tensors.jl) and [TensorOperations.jl](https://github.com/Jutho/TensorOperations.jl): For higher-order-Tensor math.
 
 - Linear Algebra: 
