@@ -72,7 +72,7 @@ Julia is a relatively young language with a smaller community than, say, Python,
     - [SciKitLearn.jl](https://github.com/cstjean/ScikitLearn.jl) for having access to the python based [scikit-learn](https://scikit-learn.org/) library in Julia. 
     - [Flux.jl](https://github.com/FluxML/Flux.jl) for deep learning applications. 
 
-Have a look at [the JuliaHub package database](https://juliahub.com/ui/Packages) to find other packages for your use case. 
+Have a look at [the JuliaHub package database](https://juliahub.com/ui/Home) to find other packages for your use case. 
 
 
 ## Style guides and best-practices:
