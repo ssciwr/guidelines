@@ -54,7 +54,8 @@ Julia is a relatively young language with a smaller community than, say, Python,
     - [LinearAlgebra.jl](https://docs.julialang.org/en/v1/stdlib/LinearAlgebra/): Standard library module for linear algebra operations like matric traces, in verse, multiplication and so on. 
 
 - Data analysis and data transformation: 
-    - [DataFrames.jl](https://github.com/JuliaData/DataFrames.jl) and [DataFramesMeta.jl](https://github.com/JuliaData/DataFramesMeta.jl)
+    - [DataFrames.jl](https://github.com/JuliaData/DataFrames.jl) and [DataFramesMeta.jl](https://github.com/JuliaData/DataFramesMeta.jl) for tabular data. Julia's analog to [Pandas](https://pandas.pydata.org/) known from Python. Use this for higher performance. 
+    - [Query.jl](https://github.com/queryverse/Query.jl) Apply common data-analysis workflows like split-apply-combine, filter etc to almost any iterable Julia datastructure. Useful when working with data that's available in various different formats.  
 
 - Data input/output and storage: 
     - [HDF5.jl](https://github.com/JuliaIO/HDF5.jl): For arbitrary data that should have a hierarchical organization in a single file. 
@@ -64,11 +65,11 @@ Julia is a relatively young language with a smaller community than, say, Python,
 - Visualization: 
     - [Plots.jl](https://github.com/JuliaPlots/Plots.jl): Julia Frontend with a homogeneous interface for various well known plotting packages like [matplotlib](https://matplotlib.org/), [plotly](https://plotly.com/) or [GR](https://gr-framework.org/#). 
     - [Makie.jl](https://github.com/MakieOrg/Makie.jl): Feature-complete plotting package in pure Julia. 
-    - [AlgebraOfGraphics.jl](https://github.com/MakieOrg/AlgebraOfGraphics.jl) Provides support for the grammar-of-graphics paradigm on the basis of Makie.jl .
-    - [VegaLite.jl](https://github.com/queryverse/VegaLite.jl): Provides Julia support for [VegaLite](https://vega.github.io/vega-lite/) which is particularly useful for making interactive graphics. 
+    - [AlgebraOfGraphics.jl](https://github.com/MakieOrg/AlgebraOfGraphics.jl) Provides support for the grammar-of-graphics paradigm based on Makie.jl .
+    - [VegaLite.jl](https://github.com/queryverse/VegaLite.jl): Provides access to [VegaLite](https://vega.github.io/vega-lite/) from Julia, particularly useful for making interactive graphics. 
 
 - Machine Learning/Deep Learning: 
-    - [SciKitLearn.jl](https://github.com/cstjean/ScikitLearn.jl) for having access to the python based [scikit-learn](https://scikit-learn.org/) library in Julia 
+    - [SciKitLearn.jl](https://github.com/cstjean/ScikitLearn.jl) for having access to the python based [scikit-learn](https://scikit-learn.org/) library in Julia. 
     - [Flux.jl](https://github.com/FluxML/Flux.jl) for deep learning applications. 
 
 Have a look at [the JuliaHub package database](https://juliahub.com/ui/Packages) to find other packages for your use case. 
