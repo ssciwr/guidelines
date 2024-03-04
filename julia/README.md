@@ -77,7 +77,7 @@ Have a look at [the JuliaHub package database](https://juliahub.com/ui/Home) to 
 
 ## Style guides and best-practices:
 
-Much has already been written about how to write good Julia code which needs not be repeated here. Here are some starging points: 
+Much has already been written about how to write good Julia code which needs not be repeated here. Here are some starting points: 
 - [Official style guide](https://docs.julialang.org/en/v1/manual/style-guide/)
 - [Official performance tips](https://docs.julialang.org/en/v1/manual/performance-tips/)
 
