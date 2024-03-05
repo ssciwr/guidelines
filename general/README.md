@@ -1,6 +1,6 @@
 # General Guidelines
 
-The general guidelines provide an overview of sustainable software development and good scientific practice in research software engineering. They provide a general framework which researchers should adhere to when writing scientific software. However, each programming language introduces its own flavor and so the tools that are recommended can be language-specific. Please check the guidelines for the language that you are using. Currently, [C++](../cpp/README.md) and [Python](../python/README.md) are available. Please open an issue for requesting guides for further programming languages.
+The general guidelines provide an overview of sustainable software development and good scientific practice in research software engineering. They provide a general framework which researchers should adhere to when writing scientific software. However, each programming language introduces its own flavor and so the tools that are recommended can be language-specific. Please check the guidelines for the language that you are using. Currently, [C++](../cpp/README.md), [Python](../python/README.md) and [Julia](../julia/README.md) are available. Please open an issue for requesting guides for further programming languages.
 
 ## Version control
 
@@ -16,7 +16,7 @@ Good documentation is essential for ensuring users know what to do with the code
 
 ## Refactoring
 
-Refactoring means that previously implemented functionality or legacy code is updated and improved as new parts are added to a software. This allows for a flexible adaptation of the software and ensures that the dependencies are up-to-date. "Always leave code better than you found it" ([source](https://biratkirat.medium.com/step-8-the-boy-scout-rule-robert-c-martin-uncle-bob-9ac839778385)). Make use of a good coding editor (such as `VS Code` or `atom`) and linting to keep your source code clean, and use profilers to check the computational bottlenecks.
+Refactoring means that previously implemented functionality or legacy code is updated and improved as new parts are added to a software. This allows for a flexible adaptation of the software and ensures that the dependencies are up-to-date. "Always leave code better than you found it" ([source](https://biratkirat.medium.com/step-8-the-boy-scout-rule-robert-c-martin-uncle-bob-9ac839778385)). Make use of a good coding editor (such as `VS Code` or `Atom`) and linting to keep your source code clean, and use profilers to check the computational bottlenecks.
 
 ## Code review
 
