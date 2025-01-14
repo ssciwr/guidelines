@@ -6,6 +6,37 @@ The general guidelines provide an overview of sustainable software development a
 
 Any software that is being actively developed should be under version control. Version control allows you to keep track of any changes to your software and review the history at any time. It also allows you to track issues and work collaboratively. A version-control system such as `git` for your software should be the default. Different providers are available such as GitHub, GitLab, and Bitbucket.
 
+### Content of a repository
+
+A repository is the central storage location for software source code, documentation and other related files. Through a repository and a version-control system, changes to the software are being tracked and managed.
+
+A software repository should contain the following files:
+- A `README.md` file with the following elements:
+  - [ ] Name
+  - [ ] Description of the project
+  - [ ] Badges (optional)
+  - [ ] Overview diagrams (visuals) to understand the project
+  - [ ] Installation guide
+  - [ ] Usage examples
+  - [ ] Support
+  - [ ] Roadmap
+  - [ ] Contributing
+  - [ ] Authors and acknowledgment
+  - [ ] License
+  - [ ] Project status 
+  - References:
+      - Awesome README: https://github.com/matiassingers/awesome-readme?tab=readme-ov-file
+
+- Does it include a `CONTRIBUTING.md` file?
+  - Recommendations:
+    - Recommendation 1
+    - Recommendation 2
+
+- Does it include a `LICENSE` file for the project?
+  - Recommendations:
+    - Recommendation 1
+    - Recommendation 2
+
 ## Documentation
 
 Good documentation is essential for ensuring users know what to do with the code, and are applying it to the correct use cases. It will save time in the long run, as code by itself is rarely obvious, and it will help outline dependencies. Depending on the programming language used, we recommend different tools like `doxygen`, `sphinx`, or using markdown/a wiki.
