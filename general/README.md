@@ -27,15 +27,16 @@ A software repository should contain the following files:
   - References:
       - Awesome README: https://github.com/matiassingers/awesome-readme?tab=readme-ov-file
 
-- Does it include a `CONTRIBUTING.md` file?
-  - Recommendations:
-    - Recommendation 1
-    - Recommendation 2
+- A `LICENSE` file for the project. There are a variety of licenses to choose from, the SSC generally recommends a license with all options but no restrictions like the MIT license. GitHub offers [license templates](https://github.com/licenses/license-templates) that you can use to create your license file. If you add a new file through the GitHub website to your repository, or if you create a new repository, you also have the option of generating the license from the templates automatically.
 
-- Does it include a `LICENSE` file for the project?
-  - Recommendations:
-    - Recommendation 1
-    - Recommendation 2
+- A `CITATION.cff` file with information about [how to cite your software](https://citation-file-format.github.io/).
+
+- Some sort of `requirements.txt`, `CMakeLists.txt`, `Makefile`, for example, or `Dockerfile`, that specifies the required packages and ideally, installation environment. Further installation instructions should be included in the README.md.
+
+- A `.gitignore` file or similar that helps you [keep unnecessary files untracked by the version control system](https://github.com/github/gitignore). GitHub provides you with a template automatically when you add a new `.gitignore` file via the website, or create a new repository.
+
+The following files are optional files:
+- A `CONTRIBUTING.md` file with guidelines and information for contributors. This applies if you would like to actively solicit contributions to your repository.
 
 ## Documentation
 
