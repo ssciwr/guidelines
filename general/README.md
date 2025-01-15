@@ -91,3 +91,4 @@ The essential content of a documentation entails:
 ## Code review
 
 Code review - involving your collaborators in any changes you made to the code and vice versa - increases the chance of errors being detected early. Furthermore, it also aids knowledge transfer and keeps you up to date on what features are being implemented. Code review is easy to incorporate in your work flow through `GitHub pull requests`.
+
