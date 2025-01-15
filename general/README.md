@@ -31,25 +31,63 @@ A software repository should contain the following files:
 
 - A `CITATION.cff` file with information about [how to cite your software](https://citation-file-format.github.io/).
 
-- Some sort of `requirements.txt`, `CMakeLists.txt`, `Makefile`, for example, or `Dockerfile`, that specifies the required packages and ideally, installation environment. Further installation instructions should be included in the README.md.
+- Some sort of `requirements.txt`, `CMakeLists.txt`, `Makefile`, for example, or `Dockerfile`, that specifies the required packages and ideally, installation environment. Further installation instructions should be included in the README.md. Optional: A developer dependency file that contains additional dependencies needed for developing the software.
 
 - A `.gitignore` file or similar that helps you [keep unnecessary files untracked by the version control system](https://github.com/github/gitignore). GitHub provides you with a template automatically when you add a new `.gitignore` file via the website, or create a new repository.
 
 The following files are optional files:
 - A `CONTRIBUTING.md` file with guidelines and information for contributors. This applies if you would like to actively solicit contributions to your repository.
 
+## GitHub etiquette
+
+If you use GitHub or GitLab, you should use the respective ettiquette as appropriate. A standard way of developing software under git version control is [git-flow](https://nvie.com/posts/a-successful-git-branching-model/); a lightweight version of this and recommended and predominantly used by the SSC is [github-flow](https://githubflow.github.io/).
+
+Never push directly to the main branch! The git and GitHub workflow entail making changes in branches, running (and passing) automated checks (see below) like code linter, code formatter, code quality reviewer, unit tests, further tests, code test coverage, ... before merging with main. A merge with main is preceded by a Pull Request where teams and collaborators can review code, and that trigger the automated checks. These means are meant to keep the main branch deployable and functional at all times.
+
+### Commiting Code: Commit messages
+When committing code to the repository, use meaningful commit messages that explain others (and yourself) what you did and can be used to "tell a story". The commits should be grouped in Pull Requests (PR) that ideally serves only one purpose. The changes in the line of development in the PR should be summarized in the PR description. You may also [link issues during the PR](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue).
+
+A way to structure your commit messages is using [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/).
+When you merge PRs that have multiple commits (as they have usually) with the main branch, it is recommended that you *squash and merge* to group the commits in this line of development together.
+
+## Continuous integration (CI) / continuous delivery (CD)
+
+It is recommended to use CI in Pull (Merge) requests, to run automated checks that ensure your code is adhering to certain standards and passing tests. Different CI/CD integration tools are available, such as GitHub actions, GitLab CI, Jenkins, and Travis CI, to name a few. 
+
+Depending on the scope and computational demands of your software, checks that can be included entail [pre-commit](https://pre-commit.ci/), [Sonarcloud](https://www.sonarsource.com/products/sonarcloud/), [codecov](https://about.codecov.io/), and unit/regression/system/... tests (see the language-specific recommendations). You may also integrate [dependabot alerts](https://docs.github.com/en/code-security/dependabot) and [snyk](https://docs.snyk.io/) for automated PRs about new dependency releases and vulnerabilities. [GitGuardian](https://www.gitguardian.com/) is a tool that helps you keep your code and environment secrets safe.
+
+To learn about CI and CD on GitHub, see [here](https://skills.github.com/#automate-workflows-with-github-actions). GitHub actions are free for public repositories, and underly a quota for private repositories. One of the big advantages of CI is that you can run checks in different environments (operating systems, dependency versions, etc).
+
 ## Documentation
 
 Good documentation is essential for ensuring users know what to do with the code, and are applying it to the correct use cases. It will save time in the long run, as code by itself is rarely obvious, and it will help outline dependencies. Depending on the programming language used, we recommend different tools like `doxygen`, `sphinx`, or using markdown/a wiki.
 
+The documentation can be hosted on ecosystem-wide platforms, for example, `readthedocs` for Python projects, or more generally using [GitHub pages](https://pages.github.com/) or Gitlab. To learn how to set up GitHub pages, see [here](https://github.com/skills/github-pages).
+
+The documentation should be structured in Tutorials, How-to guides, API references, and Explanations (see [Diataxis documentation guide](https://diataxis.fr/)). 
+The essential content of a documentation entails:
+- Explanations  
+  -[ ] Name of the software (optional: Badges)
+  -[ ] Short description of the software
+  -[ ] Authors
+  -[ ] Date of initial development
+  -[ ] Main features
+  -[ ] Main requirements
+  -[ ] Validity range of the parameters
+  -[ ] License information
+  -[ ] Bug tracker
+  -[ ] References
+  -[ ] Citation information
+- Tutorials and How-To guides
+  -[ ] Input examples and explanations, step-by-step instructions
+  -[ ] More detailed description of scientific approach and input variables reference
+- API and developer references  
+  -[ ] Source code description - functions and classes, modules, variables
+
 ## Testing
 
-(Automated) testing ensures that errors are detected early and that results are reproducible. Implementing the tests and keeping them updated requires effort, but will pay off in the long run. When planning your software, you can also make use of a test-driven development philosophy which makes structuring your code easier. Reproducibility is a requirement for good scientific practices. Testing also makes refactoring easier, and allows for continuous integration/continuous delivery (deployment) (CI/CD). Different CI/CD integration tools are available, such as GitHub actions, GitLab CI, Jenkins, and Travis CI, to name a few.
-
-## Refactoring
-
-Refactoring means that previously implemented functionality or legacy code is updated and improved as new parts are added to a software. This allows for a flexible adaptation of the software and ensures that the dependencies are up-to-date. "Always leave code better than you found it" ([source](https://biratkirat.medium.com/step-8-the-boy-scout-rule-robert-c-martin-uncle-bob-9ac839778385)). Make use of a good coding editor (such as `VS Code` or `Atom`) and linting to keep your source code clean, and use profilers to check the computational bottlenecks.
+(Automated) testing ensures that errors are detected early and that results are reproducible. Implementing the tests and keeping them updated requires effort, but will pay off in the long run. When planning your software, you can also make use of a test-driven development philosophy which makes structuring your code easier. Keep in mind that reproducibility is a requirement for good scientific practices. Automated testing allows for continuous integration/continuous delivery (deployment) (CI/CD). 
 
 ## Code review
 
-Code review - involving your collaborators in any changes you made to the code and vice versa - increases the chance of errors being detected early. Furthermore, it also aids knowledge transfer and keeps you up to date on what features are being implemented. Code review is easy to incorporate in your work flow through `github pull requests`.
+Code review - involving your collaborators in any changes you made to the code and vice versa - increases the chance of errors being detected early. Furthermore, it also aids knowledge transfer and keeps you up to date on what features are being implemented. Code review is easy to incorporate in your work flow through `GitHub pull requests`.
