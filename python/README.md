@@ -59,7 +59,7 @@ for the project, each person contributing to a project can use whichever tools t
   - Use [pre-commit](https://pre-commit.com/) to automatically format (black) and lint (flake8) your code upon commit. You should also include [nbstripout](https://github.com/kynan/nbstripout) when working with Jupyter notebooks, to ensure only the input is retained in the commit history and not the output (this can overexaggerate your changes and make finding the real changes difficult)
 - Notebooks:
   - Use a [spell checker for Jupyter Notebooks](https://github.com/ipython-contrib/jupyter_contrib_nbextensions)
-  - Make notebooks available for easy use through [google colab]() or [binder]()
+  - Make notebooks available for easy use through [google colab](https://colab.research.google.com/) or [binder](https://notebooks.gesis.org/binder/)
 - Command Line Scripts:
   - For interactive scripts, use [argparse](https://docs.python.org/3/library/argparse.html) or [click](https://click.palletsprojects.com/en/stable/)
 

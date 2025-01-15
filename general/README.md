@@ -66,24 +66,24 @@ Good documentation is essential for ensuring users know what to do with the code
 The documentation can be hosted on ecosystem-wide platforms, for example, `readthedocs` for Python projects, or more generally using [GitHub pages](https://pages.github.com/) or Gitlab. To learn how to set up GitHub pages, see [here](https://github.com/skills/github-pages).
 
 The documentation should be structured in Tutorials, How-to guides, API references, and Explanations (see [Diataxis documentation guide](https://diataxis.fr/)). 
-The essential content of a documentation entails:
+The essential content of a documentation entails:  
 - Explanations  
-  -[ ] Name of the software (optional: Badges)
-  -[ ] Short description of the software
-  -[ ] Authors
-  -[ ] Date of initial development
-  -[ ] Main features
-  -[ ] Main requirements
-  -[ ] Validity range of the parameters
-  -[ ] License information
-  -[ ] Bug tracker
-  -[ ] References
-  -[ ] Citation information
-- Tutorials and How-To guides
-  -[ ] Input examples and explanations, step-by-step instructions
-  -[ ] More detailed description of scientific approach and input variables reference
-- API and developer references  
-  -[ ] Source code description - functions and classes, modules, variables
+  -[ ] Name of the software (optional: Badges)  
+  -[ ] Short description of the software  
+  -[ ] Authors  
+  -[ ] Date of initial development  
+  -[ ] Main features  
+  -[ ] Main requirements  
+  -[ ] Validity range of the parameters  
+  -[ ] License information  
+  -[ ] Bug tracker  
+  -[ ] References  
+  -[ ] Citation information  
+- Tutorials and How-To guides  
+  -[ ] Input examples and explanations, step-by-step instructions  
+  -[ ] More detailed description of scientific approach and input variables reference  
+- API and developer references   
+  -[ ] Source code description - functions and classes, modules, variables  
 
 ## Testing
 
