@@ -1,10 +1,10 @@
 # General Guidelines
 
-The general guidelines provide an overview of sustainable software development and good scientific practice in research software engineering. They provide a general framework which researchers should adhere to when writing scientific software. However, each programming language introduces its own flavor and so the tools that are recommended can be language-specific. Please check the guidelines for the language that you are using. Currently, [C++](../cpp/README.md), [Python](../python/README.md) and [Julia](../julia/README.md) are available. Please open an issue for requesting guides for further programming languages.
+The general guidelines provide an overview of sustainable software development and good scientific practice in research software engineering. They provide a general framework which researchers should adhere to when writing scientific software. However, each programming language introduces its own flavor and so the tools that are recommended can be language-specific. Please check the guidelines for the language that you are using. Currently, [C++](../cpp/README.md), [Python](../python/README.md) and [Julia](../julia/README.md) are available. Please [open an issue](https://github.com/ssciwr/guidelines/issues) for requesting guides for further programming languages or other updates.
 
 ## Version control
 
-Any software that is being actively developed should be under version control. Version control allows you to keep track of any changes to your software and review the history at any time. It also allows you to track issues and work collaboratively. A version-control system such as `git` for your software should be the default. Different providers are available such as GitHub, GitLab, and Bitbucket.
+Any software that is actively developed should be under version control. Version control allows you to keep track of any changes to your software and review the history at any time. It also allows you to track issues and work collaboratively. A version-control system such as `git` for your software should be the default. To host your remote repository, different providers are available such as [GitHub](https://github.com/), [GitLab](https://docs.gitlab.com/), and [Bitbucket](https://bitbucket.org/product/).
 
 ### Content of a repository
 
@@ -23,26 +23,27 @@ A software repository should contain the following files:
   - [ ] Contributing
   - [ ] Authors and acknowledgment
   - [ ] License
-  - [ ] Project status 
-  - References:
-      - Awesome README: https://github.com/matiassingers/awesome-readme?tab=readme-ov-file
+  - [ ] Project status  
+  See, for example, [Awesome README](https://github.com/matiassingers/awesome-readme?tab=readme-ov-file).
 
-- A `LICENSE` file for the project. There are a variety of licenses to choose from, the SSC generally recommends a license with all options but no restrictions like the MIT license. GitHub offers [license templates](https://github.com/licenses/license-templates) that you can use to create your license file. If you add a new file through the GitHub website to your repository, or if you create a new repository, you also have the option of generating the license from the templates automatically.
+- A `LICENSE` file for the project. There are a variety of licenses to choose from, the SSC generally recommends a license with all options but no restrictions like the MIT license. GitHub offers [license templates](https://github.com/licenses/license-templates) that you can use to create your license file. If you add a new file to your repository through the GitHub website, or if you create a new repository, you also have the option of generating the license from the templates automatically.
 
 - A `CITATION.cff` file with information about [how to cite your software](https://citation-file-format.github.io/).
 
-- Some sort of `requirements.txt`, `CMakeLists.txt`, `Makefile`, for example, or `Dockerfile`, that specifies the required packages and ideally, installation environment. Further installation instructions should be included in the README.md. Optional: A developer dependency file that contains additional dependencies needed for developing the software.
+- Some sort of `requirements.txt`, `CMakeLists.txt`, `Makefile`, for example, or `Dockerfile`, that specifies the required packages and ideally, installation environment. Further installation instructions should be included in the `README.md`. Optional: A developer dependency file that contains additional dependencies needed for developing the software.
 
-- A `.gitignore` file or similar that helps you [keep unnecessary files untracked by the version control system](https://github.com/github/gitignore). GitHub provides you with a template automatically when you add a new `.gitignore` file via the website, or create a new repository.
+- A `.gitignore` file that helps you [keep unnecessary files untracked by the version control system](https://github.com/github/gitignore). GitHub provides you with a template automatically when you add a new `.gitignore` file via the website, or create a new repository.
 
 The following files are optional files:
 - A `CONTRIBUTING.md` file with guidelines and information for contributors. This applies if you would like to actively solicit contributions to your repository.
 
+- Configuration files for pre-commit hooks, linters, and GitHub actions.
+
 ## GitHub etiquette
 
-If you use GitHub or GitLab, you should use the respective ettiquette as appropriate. A standard way of developing software under git version control is [git-flow](https://nvie.com/posts/a-successful-git-branching-model/); a lightweight version of this and recommended and predominantly used by the SSC is [github-flow](https://githubflow.github.io/).
+If you use GitHub or GitLab, you should use the respective etiquette as appropriate. A standard way of developing software under git version control is [git-flow](https://nvie.com/posts/a-successful-git-branching-model/); a lightweight version of this and recommended and predominantly used by the SSC is [github-flow](https://githubflow.github.io/).
 
-Never push directly to the main branch! The git and GitHub workflow entail making changes in branches, running (and passing) automated checks (see below) like code linter, code formatter, code quality reviewer, unit tests, further tests, code test coverage, ... before merging with main. A merge with main is preceded by a Pull Request where teams and collaborators can review code, and that trigger the automated checks. These means are meant to keep the main branch deployable and functional at all times.
+Never push directly to the main branch! The git and GitHub workflow entail making changes in branches, running (and passing) automated checks (see below) like code linter, code formatter, code quality reviewer, unit tests, further tests, code test coverage, ... before merging with main. A merge with main is preceded by a Pull Request where teams and collaborators can review code, and that trigger the automated checks. These means are meant to keep the main branch functional and deliverable at all times.
 
 ### Commiting Code: Commit messages
 When committing code to the repository, use meaningful commit messages that explain others (and yourself) what you did and can be used to "tell a story". The commits should be grouped in Pull Requests (PR) that ideally serves only one purpose. The changes in the line of development in the PR should be summarized in the PR description. You may also [link issues during the PR](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue).
