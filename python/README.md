@@ -19,9 +19,6 @@ Here are our suggested default choices for build systems and third party librari
 - Documentation: [Sphinx](https://www.sphinx-doc.org/)
   - the default for Python documentation
 - Documentation hosting: [readthedocs](https://docs.readthedocs.io/en/stable/) or [MkDocs](https://www.mkdocs.org/), or GitHub pages (see [general recommendations](../general/README.md))
-  - Recommendations:
-    - Recommendation 1
-    - Recommendation 2
   - References: 
     - [Sphinx setup tutorial Scientific Software Center](https://ssciwr.github.io/sustainable_development_course/unit4/STEPS.html)
 - Python versions:
@@ -48,7 +45,6 @@ for the project, each person contributing to a project can use whichever tools t
 
 - IDE
   - [Visual Studio Code](https://code.visualstudio.com/): free
-  - [Atom](https://atom.io/): free
   - [Sublime Text](https://www.sublimetext.com/): free but will ask you to purchase from time to time
 - Code formatting
   - Don't do this manually, and especially don't spend time debating how code should be formatted!
