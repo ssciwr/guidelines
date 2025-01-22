@@ -45,7 +45,7 @@ for the project, each person contributing to a project can use whichever tools t
 
 - IDE
   - [Visual Studio Code](https://code.visualstudio.com/): free
-  - [Atom](https://atom.io/): free
+  - [Atom](https://atom.io/): free, but no longer developed as of December 2022.
   - [Sublime Text](https://www.sublimetext.com/): free but will ask you to purchase from time to time
 - Code formatting
   - Don't do this manually, and especially don't spend time debating how code should be formatted!
