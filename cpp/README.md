@@ -1,5 +1,5 @@
 # C++ Coding Guidelines
-Our recommendations for creating and maintaining reliable C++ scientific software.
+Our recommendations for creating and maintaining reliable C++ scientific software. 
 
 ## Good default choices
 
@@ -45,11 +45,25 @@ for the project, each person contributing to a project can use whichever tools t
   - Don't do this manually, and especially don't spend time debating how code should be formatted!
   - Just pick a tool that does it automatically (e.g. your IDE, or [clang-format](https://clang.llvm.org/docs/ClangFormat.html))
   - [pre-commit](https://pre-commit.com/) and [pre-commit.ci](https://pre-commit.ci/) is a great way to do this
-
+- Sanitizers 
+  Sanitizers are compiler tools that enable runtime checks for specific aspects of a program, e.g., thread-safety, memory management, undefined behavior and others. These sanitizers can be enabled at compile time, and will run alongside the compiled program and detect and report suspicious behavior. This comes with a performance penality that depends on the sanitizer used, hence they should not be enabled in production builds. To get the best reports, make sure you compile a symboliced binary. Available sanitizers differ from compiler to compiler: 
+    - [Visual Studio](https://learn.microsoft.com/en-us/cpp/build/reference/fsanitize?view=msvc-170)
+    - [Clang](https://clang.llvm.org/docs/UsersManual.html#controlling-code-generation)
+    - [GCC](https://gcc.gnu.org/onlinedocs/gcc/Instrumentation-Options.html)
+- Package managers
+  - Package managers can help reduce overhead from dependency management.
+  - [Conan](https://conan.io/)
+  - [vcpkg](https://vcpkg.io/en/)
+- Debugging, Profiling and Benchmarking
+  There is a plethora of solutions for different platforms and use cases
+  - [Google Performance Tools](https://github.com/gperftools/gperftools) CPU and Memory profiling
+  - [Nvidia Nsight](https://developer.nvidia.com/nsight-compute-2019_5) for CUDA code
+  - [Valgrind](https://valgrind.org/) Instrumentation suite that includes heap- and cache-profilers as well as memory debugging tools
+  
 ## Recommended third party libraries
 
 It is nearly always better, where possible, to use a well tested and maintained third party library instead of rolling
-your own solution to a problem. Typical benefits include: less bugs, better performance, less maintenance.
+your own solution to a problem. Typical benefits include: less bugs, better performance, less maintenance. Wherever possible, one should use the C++ standard template library (STL) and only use third-party dependencies when the STL does not suffice. 
 
 Here are our recommendations for third party libraries to solve some common problems in scientific computing:
 
@@ -63,3 +77,10 @@ Here are our recommendations for third party libraries to solve some common prob
 - String formatting: [fmt](https://fmt.dev/)
   - use case: formatting strings, e.g. replacing `printf` calls
   - simple python-like interface, fast performance
+- General purpose libraries that augment the STL with a wide array of functionality:
+  - [Boost](https://www.boost.org/)
+  - [Abseil](https://github.com/abseil/abseil-cpp)
+- Cross-language hierarchical data storage:
+  - [HDF5](https://www.hdfgroup.org/solutions/hdf5/) 
+- Fast, cross-language tabular data storage: 
+  - [Apache Arrow](https://arrow.apache.org/)
