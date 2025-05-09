@@ -84,3 +84,6 @@ Here are our recommendations for third party libraries to solve some common prob
   - [HDF5](https://www.hdfgroup.org/solutions/hdf5/) 
 - Fast, cross-language tabular data storage: 
   - [Apache Arrow](https://arrow.apache.org/)
+- Multithreading and Parallelization:
+  - [OpenMP](https://www.openmp.org/)
+  - [Intel oneTBB](https://github.com/uxlfoundation/oneTBB)
