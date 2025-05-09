@@ -35,7 +35,7 @@ Julia is a relatively young language with a smaller community than, say, Python,
 - IDE/Code Editor: 
     - [Visual Studio Code](https://code.visualstudio.com/): Free. The de-facto standard in the community. Provides support for linting, test discovery, formatting and more. Recommended way to go.
     - [Juno](https://junolab.org/): Free. Build on top of [Atom](https://atom-editor.cc/). Atom is no longer supported by Microsoft/GitHub, and Juno is only maintained and wont receive new features. Only consider this if you already have an Atom-based workflow and are unwilling to switch. 
-    - [Sublime Text](https://www.sublimetext.com/): Free, but will ocassionally ask you to buy it. Syntax highlighing for Julia is available, but support for other functions is less developed than in the other two.
+    - [Sublime Text](https://www.sublimetext.com/): Free, but will occasionally ask you to buy it. Syntax highlighting for Julia is available, but support for other functions is less developed than in the other two.
 
 - Code Formatting: 
     - automatic formatting is available via VSCode's Julia plugin or through Juno.
@@ -51,11 +51,11 @@ Julia is a relatively young language with a smaller community than, say, Python,
     - [Tensors.jl](https://github.com/Ferrite-FEM/Tensors.jl) and [TensorOperations.jl](https://github.com/Jutho/TensorOperations.jl): For higher-order-Tensor math.
 
 - Linear Algebra: 
-    - [LinearAlgebra.jl](https://docs.julialang.org/en/v1/stdlib/LinearAlgebra/): Standard library module for linear algebra operations like matric traces, in verse, multiplication and so on. 
+    - [LinearAlgebra.jl](https://docs.julialang.org/en/v1/stdlib/LinearAlgebra/): Standard library module for linear algebra operations like matrix traces, inverse, multiplication and so on. 
 
 - Data analysis and data transformation: 
     - [DataFrames.jl](https://github.com/JuliaData/DataFrames.jl) and [DataFramesMeta.jl](https://github.com/JuliaData/DataFramesMeta.jl) for tabular data. Julia's analog to [Pandas](https://pandas.pydata.org/) known from Python. Use this for higher performance. 
-    - [Query.jl](https://github.com/queryverse/Query.jl) Apply common data-analysis workflows like split-apply-combine, filter etc to almost any iterable Julia datastructure. Useful when working with data that's available in various different formats.  
+    - [Query.jl](https://github.com/queryverse/Query.jl) Apply common data-analysis workflows like split-apply-combine, filter etc to almost any iterable Julia data structure. Useful when working with data that's available in various different formats.  
 
 - Data input/output and storage: 
     - [HDF5.jl](https://github.com/JuliaIO/HDF5.jl): For arbitrary data that should have a hierarchical organization in a single file. 
