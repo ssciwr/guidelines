@@ -19,7 +19,7 @@ Here are our suggested default choices for build systems and third party librari
   - [pytest](https://docs.pytest.org/en/stable/)
     - use pytest to drive your Fortran code, harnessing the power of the testing framework and at the same time account for the intricacies of Fortran legacy codebases and workflows - see [an example](https://github.com/ssciwr/powr-refactor/blob/main/test/test_colitest.py)
 - Continuous Integration: [GitHub Actions](https://github.com/features/actions)
-  - well integrated with Github
+  - well integrated with GitHub
 - Documentation: [Doxygen](https://doxygen.nl/manual/index.html)
   - can harness your comments from the source code
 - Documentation hosting: [readthedocs](https://docs.readthedocs.io/en/stable/) or [MkDocs](https://www.mkdocs.org/), or GitHub pages (see [general recommendations](../general/README.md))
