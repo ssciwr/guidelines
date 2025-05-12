@@ -57,7 +57,7 @@ It is recommended to use CI in Pull (Merge) requests, to run automated checks th
 
 Depending on the scope and computational demands of your software, checks that can be included entail [pre-commit](https://pre-commit.ci/), [Sonarcloud](https://www.sonarsource.com/products/sonarcloud/), [codecov](https://about.codecov.io/), and unit/regression/system/... tests (see the language-specific recommendations). You may also integrate [dependabot alerts](https://docs.github.com/en/code-security/dependabot) and [snyk](https://docs.snyk.io/) for automated PRs about new dependency releases and vulnerabilities. [GitGuardian](https://www.gitguardian.com/) is a tool that helps you keep your code and environment secrets safe.
 
-To learn about CI and CD on GitHub, visit [this page](https://skills.github.com/#automate-workflows-with-github-actions). GitHub actions are free for public repositories, and underlie a quota for private repositories. One of the big advantages of CI is that you can run checks in different environments (operating systems, dependency versions, etc).
+To learn about CI and CD on GitHub, visit [this page](https://skills.github.com/#automate-workflows-with-github-actions). GitHub actions are free for public repositories, and provide a limited free monthly quota for private repositories. One of the big advantages of CI is that you can run checks in different environments (operating systems, dependency versions, etc).
 
 ## Documentation
 
