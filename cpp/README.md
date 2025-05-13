@@ -46,7 +46,7 @@ for the project, each person contributing to a project can use whichever tools t
   - Just pick a tool that does it automatically (e.g. your IDE, or [clang-format](https://clang.llvm.org/docs/ClangFormat.html))
   - [pre-commit](https://pre-commit.com/) and [pre-commit.ci](https://pre-commit.ci/) is a great way to do this
 - Sanitizers 
-  Sanitizers are compiler tools that enable runtime checks for specific aspects of a program, e.g., thread-safety, memory management, undefined behavior and others. These sanitizers can be enabled at compile time, and will run alongside the compiled program and detect and report suspicious behavior. This comes with a performance penality that depends on the sanitizer used, hence they should not be enabled in production builds. To get the best reports, make sure you compile a symboliced binary. Available sanitizers differ from compiler to compiler: 
+  Sanitizers are compiler tools that enable runtime checks for specific aspects of a program, e.g., thread-safety, memory management, undefined behavior and others. These sanitizers can be enabled at compile time, and will run alongside the compiled program and detect and report suspicious behavior. This comes with a performance penalty that depends on the sanitizer used, hence they should not be enabled in production builds. To get the best reports, make sure you compile a symbolized binary. Available sanitizers differ from compiler to compiler: 
     - [Visual Studio](https://learn.microsoft.com/en-us/cpp/build/reference/fsanitize?view=msvc-170)
     - [Clang](https://clang.llvm.org/docs/UsersManual.html#controlling-code-generation)
     - [GCC](https://gcc.gnu.org/onlinedocs/gcc/Instrumentation-Options.html)
@@ -84,3 +84,6 @@ Here are our recommendations for third party libraries to solve some common prob
   - [HDF5](https://www.hdfgroup.org/solutions/hdf5/) 
 - Fast, cross-language tabular data storage: 
   - [Apache Arrow](https://arrow.apache.org/)
+- Multithreading and Parallelization:
+  - [OpenMP](https://www.openmp.org/)
+  - [Intel oneTBB](https://github.com/uxlfoundation/oneTBB)
