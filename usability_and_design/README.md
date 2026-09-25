@@ -19,7 +19,7 @@ if your application has a view that is too complicated, it will become unusable 
 We can apply rules to our use of use colour, spacing and information correctness/appearnace on our software is correct and communicates in ways users understand to help make our software more approachable.
 Aesthetic appealing software (using consistent colours)  is preferred by observers - important for when people are considering your software or if it should be supported
 
-Design is important for usability because it covers the perception and clarity side. What is unclear we interact with **slower, and with more mistakes**. Improving an application often therefore makes it more usable. Regarding perception, avoiding using old style libraries is also often overlooked by scientists in our experience (e.g. Bootstrap 3 --> Bootstrap 4 for R language applications)
+Design is important for usability because it covers the perception and clarity side. What is unclear we interact with **slower, and with more mistakes**. Improving an application often therefore makes it more usable. Regarding perception, avoiding using old style libraries is also often overlooked by scientists in our experience (e.g. Bootstrap 3 --> Bootstrap 4 for R language applications) (Todo: Example of that)
 
 ### How does design have an impact on scientific software?
 
@@ -43,7 +43,7 @@ when you have less UI elements displayed, you can make space around them so the 
 If users are confused, they will abandon your programme earlier.
 Really good software has people spreading positive reputation and awareness of you and your lab because of what it clearly does.
 
-### Take advantage of mapping domain knowledge into the application interface
+### Usability meets design: Take advantage of mapping domain knowledge into the application interface
 (Insert graphics here)
 Many scientific workflows are naturally processes; put these into steps and **only show the user relevant information for that step**
 
@@ -52,6 +52,11 @@ Leave one clear prominent button only with no other buttons competing for it to 
 Note not to take this to the extreme: Consumer applications like Duolingo always have a Next button to entice users to keep using it.
 For users wanting to edit options, or as Nielsen mentions, who need a way out of a misstep they have made, having information available("User Control and Information" - Nielsen (1998, updated 2005).
 (Todo: want to cite the 2009 M study perhaps that was scientific-software specific)
+
+Lee (2010) showed that both the perception(More the design) of applications and how it is used for the users goal (more the Usability) both matter  - design shapes initial impression and willingness to try a task on your software, and usability influences continued usage. This is why it is important to work on both, and conceptualize them separately.
+(todo: This is a large claim I think - not sure:): You should also have designs positive perception benefit in mind for funding applicatiosn
+
+(todo; review this example idea.. try anf find a more visualizable one) A train station can have beautiful signs but if the architect made is so all passengers must go to the further platform from them for their next connection, its bad usability prevents the good design from leading to satisfied passengers)
 
 ### The easiest way to achieve this is with a design kit or library. Here are three recommended neutral defaults:
 
