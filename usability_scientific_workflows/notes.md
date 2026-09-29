@@ -103,6 +103,25 @@ This helps you bridge the gap between what you find hard to explain (to someone 
 
 
 ---
+# Why is user testing/usability not always carried out for scientific software?
+
+1) Publishing a paper is in some senses a one moment in time event
+    - Sometimes requirements are to have resources available (reviewers may not need to check they are actually installable --> Software ends up accessible but not installable)
+    - Sometimes links decay and stop working; but unless a software is very popular, the authors may not be made aware
+2) By contract commercial software ties usability and feedback form users into the "Product development" process/loops
+    - Revenue being directly linked to user retention etc and larger scales of users (for succesful companies) means A/B testing etc has value to them and they invest resources. There is no equivalent easy (and necessary) to quantify value for scientific software.
+    - Whereas for science, it needs to be (A) argued for typically upfront in the grant funding model, (B) conducted despite many other pressing priorities for the given researcher
+    - It is hard to show empirically that the same benefits of usability/AB testing apply for scientific software (Though there are studies cited in these guidelines about perception, saving time and surveys showing that popularity is associated with usability in some sub fields)
+That is how we can know that usability of most software being improved can have benefits for users, but some scientific user does not focus on that
+
+
+
+# And relatedly: How can we convince scientists or present to them benefits from usability?
+1) If their software pushes their sub domain forward (e.g. for a certain kind of experiment or to measure a certain concept or simulate a certain class of problems), being the one to steer it brings scientific social capital and impact(evidence?)
+2) If their software is not usable, others cannot replicate their results or build off them, as easily - less people may engage with them
+3) Usable software helps with a major science specific problem: relatively high turnover of people in lab/groups due to how academia tends to function: "onboarding" or bringing people on to projects is hard. Usable software with examples can be more learnable(evidence?), and definitely operated faster (24% dekstop speed up) - and this affects their group/labs ability to conduct research faster. This I want to collect more opinions on.
+
+---
 # The objectives of the Usability Scientific Workflow Guidelines:
 1) Convince researchers to establish workflow configuration files for suitable software
 2) By clarifying in their terms what is useful (Easier for non-programmers to use, saves time, better scientific FAIR principles/reuse) - citing relevant studies

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" class="in-text" default-locale="en-US">
+  <info>
+    <title>Guidelines author date</title>
+    <id>https://github.com/ssciwr/guidelines/blob/main/citation-style.csl</id>
+    <updated>2026-09-29T00:00:00+00:00</updated>
+  </info>
+  <macro name="first-author">
+    <names variable="author"><name form="short" et-al-min="2" et-al-use-first="1"/></names>
+  </macro>
+  <macro name="citation-author">
+    <names variable="author"><name form="short" et-al-min="3" et-al-use-first="1"/></names>
+  </macro>
+  <macro name="reference-author">
+    <names variable="author"><name and="text" delimiter=", " delimiter-precedes-last="always" name-as-sort-order="first" et-al-min="11" et-al-use-first="7"/></names>
+  </macro>
+  <macro name="year">
+    <date variable="issued"><date-part name="year"/></date>
+  </macro>
+  <citation disambiguate-add-year-suffix="true" disambiguate-add-names="false" collapse="year">
+    <layout prefix="(" suffix=")" delimiter="; ">
+      <group delimiter=" "><text macro="citation-author"/><text macro="year"/></group>
+    </layout>
+  </citation>
+  <bibliography hanging-indent="true">
+    <sort><key macro="first-author"/><key variable="issued"/><key variable="title"/></sort>
+    <layout suffix=".">
+      <group delimiter=". ">
+        <group delimiter=". "><text macro="reference-author"/><text macro="year"/></group>
+        <text variable="title" quotes="true"/>
+        <group delimiter=" ">
+          <text variable="container-title" font-style="italic"/>
+          <group delimiter=""><text variable="volume"/><text variable="issue" prefix="(" suffix=")"/><text variable="page" prefix=": "/></group>
+        </group>
+        <text variable="DOI" prefix="doi:"/>
+      </group>
+    </layout>
+  </bibliography>
+</style>
