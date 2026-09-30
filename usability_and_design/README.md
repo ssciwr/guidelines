@@ -64,6 +64,8 @@ Aesthetic appealing software (using consistent colours)  is preferred by observe
 
 Using consistent font, borders and variations on colour transparency/brightness with fewer colour hues) makes the application **feel more usable**, even if the buttons actions, positions and text content does not change
 
+Be consistent with other applications: Use save and folder icons rather than "File -> Save/Load" and place them at the top left on a thin bar. Sometimes without visual indicators that match the model the user has, users do not even know that action is possible, a common finding in usability testing.
+
 Design is important for usability because it covers the perception and clarity side. What is unclear we interact with **slower, and with more mistakes**. Improving an application often therefore makes it more usable. Regarding perception, avoiding using old style libraries is also often overlooked by scientists in our experience (e.g. Bootstrap 3 --> Bootstrap 4 for R language applications) (Todo: Example of that)
 
 ### Good design requires consistently - use a Design kit for that:
