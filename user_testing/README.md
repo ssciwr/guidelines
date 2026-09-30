@@ -14,16 +14,20 @@ If your goal is to spread your application, effective user testing can help you 
 - Observing and hearing from them can help bring about revelations about the best model for your software to have for your users to achieve their goals. For example, in the OMERO software, user testing by observation and discussion revealed the developers model for an application of "Each image belongs in a category" was wrong - real users wanted to place _labels_ onto each image, not be forced to choose one category. **You should seek these insights/revelations and bring your model closer to the users domain model [to make your software work how they expect to work]** (Macaulay et al, 2009)
 - When they test, try and get them to select their own inputs or representative data to see how your software really handles their case (not a tutorial or sample case)
 
-### How to collect useful information form user testing
+- By doing this you can reveal differences in your conceputalizatio nof the data model vs the users, and adapt your model before you solidify and entangle complex functionality onto it:
+
+user-test-domain-model.svg
+Above: Visual representation of the data model change learned from user testing in Macaulay et al (2009)
+
+
+### How to collect useful information from user testing
 - Ask after the test what the worst and best parts were and improve the most common answers.
 - Note down the vocabulary you use and where your vocabulary does not match theirs, ask: Should your domain model change, your functionality, or your softwares terminology/wording?
 - You can use Likert scales to measure the difference improvements make (e.g. ask them to score satisfaction out of 10 before and after).
 - Alternatively, it is easier if you want a numerical metric to see meaningful before/after differences by timing results and seeing if users can operate steps in your software faster. When usability is unclear users pause and take longer.
 
-#### User centered design testing to adapt the cocnepts and approach of the software before you significantly programme it
-- in the X project, conceptualizing how your users actually work (e.g. whether images go in categories, or whether images should have "labels") before can save time later
-- You have an opportunity in the early stage to match to the way users in your domain collectively think non-technically about your problem.
-- Commercial studies show better designs result in direct high engagement on metrics (e.g. time on app /  sales) [duolingo reference]
+
+
 
 #### Method 2: Involving existing and new users to improve existing applications purely on a usability/user interface point of view
 Usually your application is usable, basic, focused and clear early on.

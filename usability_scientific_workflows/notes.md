@@ -78,6 +78,12 @@ one next thing/keep screen simple if it can for a given purpose
 
 for sceintific UIs, keep it and settings visible as well as the stage
 
+---
+# Feature Fatigue
+Sounds good, but not really so much research behind it (Except that cognitive load can be increased, or that some users are unaware of advanced features Karlovská (2023) and Procter et al. (2009))
+I think it can be conflated with users being disgruntled by design chagnes "Learnability" for highly-used software.
+I don't think it is an important point to make as other points already make you think about maanging features and usability of those features and their cognitive load.
+
 
 ---
 ### More workflow notes:

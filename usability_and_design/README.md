@@ -38,16 +38,18 @@ A close-to-timeless resoruce for user interfaces is [Nielsens 10 Usability Heuri
 
 ### Specifically beneficial for scientific software
 **Autocomplete** with valid options (e.g. genes analyzed in a dashboard graph tool, or [auto-suggesting valid options for a workflow configuration file](../usability_scientific_workflows/README.md#todo)) consistently improve scientific interfaces we work with.
-(todo: image from gene list)
+![img.png](img.png) Above: Provide autocomplete available options
+
 
 **Adjustable dials that react instantly - reactive outputs**
 We common see scientists, even when prompting AI, create interfaces where one first sets many values, then clicks a button, and then sees the results.
 While this flow is valid, seeing instant changes/results is an upgrade
 
-Example: a timeline allows users to move along data points to see differences in their working memory rather than needing to choose each date.
-
-(picture of timeline case)
-
+![img_1.png](img_1.png)
+Above: A timeline you can drag allows users to move along data points to see differences in their working memory rather than needing to choose each date.
+<!---
+better would be a GIF, perhaps of SMART RODENT where one can scroll through each day?
+-->
 
 
 ### What is Design for scientific software?
@@ -66,7 +68,9 @@ Using consistent font, borders and variations on colour transparency/brightness 
 
 Be consistent with other applications: Use save and folder icons rather than "File -> Save/Load" and place them at the top left on a thin bar. Sometimes without visual indicators that match the model the user has, users do not even know that action is possible, a common finding in usability testing.
 
-Design is important for usability because it covers the perception and clarity side. What is unclear we interact with **slower, and with more mistakes**. Improving an application often therefore makes it more usable. Regarding perception, avoiding using old style libraries is also often overlooked by scientists in our experience (e.g. Bootstrap 3 --> Bootstrap 4 for R language applications) (Todo: Example of that)
+Design is important for usability because it covers the perception and clarity side. What is unclear we interact with **slower, and with more mistakes**. Improving an application often therefore makes it more usable. Regarding perception, avoiding using old style libraries is also often overlooked by scientists in our experience (e.g. Bootstrap 2 --> Bootstrap 4)
+
+
 
 ### Good design requires consistently - use a Design kit for that:
 
@@ -76,7 +80,11 @@ Here are three recommended neutral defaults:
 - For R applications: [Shiny](https://shiny.posit.co/)/[bslib](https://rstudio.github.io/bslib/)
 - For Python: [Streamlit](https://streamlit.io/)/[dash+mantine](https://www.dash-mantine-components.com/)
 
-For further style there are fashions - for usability in science, it is useful to stick to current looks.
+For further style there are fashions - for usability in science, it is useful not to be too experimental; look at other recent projects to decide.
+
+Remember to use what libraries offer you to help manage cognitive load via design - e.g. R Shiny from Posit offers layout options.
+![img_2.png](https://shiny.posit.co/r/articles/build/layout-guide/pages.png)
+Above: Page Layouts from [https://shiny.posit.co/r/articles/build/layout-guide/](https://shiny.posit.co/r/articles/build/layout-guide/)
 
 #### Be "consistent" with where users expect to find certain interface objects(e.g. button location)
 `This is most common feedback I give to scientists: Review if the order you added interface objects in on the page matches what users expect!`
@@ -123,9 +131,11 @@ We don't have a complete picture effect of experience users have. It is easy to 
 and to categorise and cordon off functionality so it is clear to use the application could make your tool understandable and usable for many people.
 
 - AI in particular when given many additive features can produce them quickly, but lots of visual space clutters the UI and can make it less usable. For example, AI might use several different colours or types of button which contradicts the design guideline and Nielsens Heuristic to have appearance consistently.
-- Users feel intimidated by seeing too much content at once, particularly if it is not clear what is important or "first". (Visual clutter reference here - messy vs cleaned)
+- Users feel intimidated by seeing too much content at once, particularly if it is not clear what is important or "first". 
 
-(Todo: FEature Fatigue point and the "ideal time to redesign" point)
+### Feature Growth - Feature Fatigue
+**Based on actual user reviews, more capabilities does not equal more usability (Thomspon et al, 2005)**
+
 
 ### Timing of usability/design changes
 Usability does not tend to be worst at the start as discussed above.

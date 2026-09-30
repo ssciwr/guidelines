@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 350" role="img" aria-labelledby="title desc">
+  <title id="title">Let users from the code data model based on their actual use model, by observing it</title>
+  <desc id="desc">Observing scientists reveals that multiple labels should point to an image instead of forcing it into one category. The revised model has higher usability.</desc>
+  <metadata>Font Awesome Free 5.15.4 listening-ear and regular eye icons: https://fontawesome.com/license/free (CC BY 4.0).</metadata>
+  <rect width="1000" height="350" rx="18" fill="white"/>
+  <text x="34" y="45" fill="#3a9ebf" font-family="Arial, sans-serif" font-size="21" font-weight="700">Let users from the code data model based on their actual use model, by observing it</text>
+
+  <rect x="31" y="85" width="250" height="176" rx="12" fill="#bd2298" fill-opacity=".09" stroke="#bd2298" stroke-width="2"/>
+  <text x="156" y="118" text-anchor="middle" fill="#bd2298" font-family="Arial, sans-serif" font-size="18" font-weight="700">Initial assumption</text>
+  <rect x="49" y="141" width="60" height="60" rx="7" fill="#bd2298" fill-opacity=".14" stroke="#bd2298"/>
+  <text x="79" y="177" text-anchor="middle" fill="#bd2298" fill-opacity=".75" font-family="Arial, sans-serif" font-size="13">Image</text>
+  <path d="M115 171h22m-8-8 8 8-8 8" fill="none" stroke="#bd2298" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="143" y="144" width="119" height="54" rx="7" fill="#bd2298" fill-opacity=".15" stroke="#bd2298"/>
+  <text x="203" y="166" text-anchor="middle" fill="#bd2298" fill-opacity=".85" font-family="Arial, sans-serif" font-size="12">single Category</text>
+  <text x="203" y="182" text-anchor="middle" fill="#bd2298" fill-opacity=".85" font-family="Arial, sans-serif" font-size="12">only</text>
+  <text x="156" y="234" text-anchor="middle" fill="#bd2298" fill-opacity=".75" font-family="Arial, sans-serif" font-size="14">one category per image</text>
+  <path d="M156 272v20m-9-9 9 9 9-9" fill="none" stroke="#e80036" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="156" y="325" text-anchor="middle" fill="#e80036" fill-opacity=".75" font-family="Arial, sans-serif" font-size="18" font-weight="700">usability: low</text>
+
+  <path d="M286 174h55m-11-10 11 10-11 10" fill="none" stroke="#3a9ebf" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="349" y="103" width="281" height="142" rx="12" fill="#3a9ebf"/>
+  <text x="490" y="139" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="700">Observe real tasks</text>
+  <svg x="373" y="157" width="20" height="20" viewBox="0 0 512 512" aria-hidden="true"><path fill="white" d="M216 260c0 15.464-12.536 28-28 28s-28-12.536-28-28c0-44.112 35.888-80 80-80s80 35.888 80 80c0 15.464-12.536 28-28 28s-28-12.536-28-28c0-13.234-10.767-24-24-24s-24 10.766-24 24zm24-176c-97.047 0-176 78.953-176 176 0 15.464 12.536 28 28 28s28-12.536 28-28c0-66.168 53.832-120 120-120s120 53.832 120 120c0 75.164-71.009 70.311-71.997 143.622L288 404c0 28.673-23.327 52-52 52-15.464 0-28 12.536-28 28s12.536 28 28 28c59.475 0 107.876-48.328 108-107.774.595-34.428 72-48.24 72-144.226 0-97.047-78.953-176-176-176zm-80 236c-17.673 0-32 14.327-32 32s14.327 32 32 32 32-14.327 32-32-14.327-32-32-32zM32 448c-17.673 0-32 14.327-32 32s14.327 32 32 32 32-14.327 32-32-14.327-32-32-32zm480-187.993c0-1.518-.012-3.025-.045-4.531C510.076 140.525 436.157 38.47 327.994 1.511c-14.633-4.998-30.549 2.809-35.55 17.442-5 14.633 2.81 30.549 17.442 35.55 85.906 29.354 144.61 110.513 146.077 201.953l.003.188c.026 1.118.033 2.236.033 3.363 0 15.464 12.536 28 28 28s28.001-12.536 28.001-28zM152.971 439.029l-80-80L39.03 392.97l80 80 33.941-33.941z"/></svg>
+  <text x="402" y="173" fill="white" fill-opacity=".92" font-family="Arial, sans-serif" font-size="15">Hear the user's words</text>
+  <svg x="373" y="187" width="20" height="20" viewBox="0 0 576 512" aria-hidden="true"><path fill="white" d="M288 144a110.94 110.94 0 0 0-31.24 5 55.4 55.4 0 0 1 7.24 27 56 56 0 0 1-56 56 55.4 55.4 0 0 1-27-7.24A111.71 111.71 0 1 0 288 144zm284.52 97.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400c-98.65 0-189.09-55-237.93-144C98.91 167 189.34 112 288 112s189.09 55 237.93 144C477.1 345 386.66 400 288 400z"/></svg>
+  <text x="402" y="203" fill="white" fill-opacity=".92" font-family="Arial, sans-serif" font-size="15">Notice workarounds</text>
+  <path d="M635 174h35m-11-10 11 10-11 10" fill="none" stroke="#3a9ebf" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="678" y="85" width="291" height="176" rx="12" fill="#3a9ebf" fill-opacity=".09" stroke="#3a9ebf" stroke-width="2"/>
+  <text x="823" y="118" text-anchor="middle" fill="#3a9ebf" font-family="Arial, sans-serif" font-size="18" font-weight="700">Revised model</text>
+  <rect x="696" y="143" width="96" height="27" rx="12" fill="#3a9ebf" fill-opacity=".15" stroke="#3a9ebf"/>
+  <text x="744" y="161" text-anchor="middle" fill="#3a9ebf" fill-opacity=".85" font-family="Arial, sans-serif" font-size="13">label A</text>
+  <rect x="696" y="178" width="96" height="27" rx="12" fill="#3a9ebf" fill-opacity=".15" stroke="#3a9ebf"/>
+  <text x="744" y="196" text-anchor="middle" fill="#3a9ebf" fill-opacity=".85" font-family="Arial, sans-serif" font-size="13">label B</text>
+  <path d="M798 157h51m-9-8 9 8-9 8M798 192h51m-9-8 9 8-9 8" fill="none" stroke="#3a9ebf" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="858" y="143" width="76" height="62" rx="7" fill="#3a9ebf" fill-opacity=".15" stroke="#3a9ebf"/>
+  <text x="896" y="180" text-anchor="middle" fill="#3a9ebf" fill-opacity=".75" font-family="Arial, sans-serif" font-size="13">Image</text>
+  <text x="823" y="234" text-anchor="middle" fill="#3a9ebf" fill-opacity=".75" font-family="Arial, sans-serif" font-size="14">multiple labels per image</text>
+  <path d="M823 292v-20m-9 9 9-9 9 9" fill="none" stroke="#40b945" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="823" y="325" text-anchor="middle" fill="#40b945" fill-opacity=".8" font-family="Arial, sans-serif" font-size="18" font-weight="700">usability: High</text>
+</svg>
