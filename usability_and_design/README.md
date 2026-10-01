@@ -1,16 +1,16 @@
 ## Usability and Design Guidebook for Scientific Software
 
-An overview of common ways to improve your software usability and design covering different sub-types of scientific software, common findings from providing UI feedback to scientists at the UI. Good usability can **saves users time to conduct tasks** (24% on Desktop in Park et al (2019), and good design increases satisfaction, perception of use and contributes to usability.
+An overview of common ways to improve your software usability and design covering different sub-types of scientific software, common findings from providing UI feedback to scientists at the UI. Good usability can **saves users time to conduct tasks** (24% on Desktop devices in Park et al (2019) for the "Basic Laboratory Information System" software, and good design increases satisfaction, perception of use and contributes to usability.
 
-My experience creating a consumer app with thousands of monthly users was that the rate who would **retrun to use again** and to **purchase subscriptions** could double after applying usability principles, improving design, and making flow changes based on [user testing](../user_testing/README.md))
-User responses are not uniform - design is extremely important. For example in this question for a consumer app which I designed, a large difference. Implementing differently to user expectations could lead to higher cognitive load, and certainly appears in rentention/usage rates.
+My experience creating a consumer app with thousands of monthly users was that the rate who would **return to use again** and to **purchase subscriptions** could double after applying usability principles, improving design, and making flow changes based on [user testing](../user_testing/README.md)
+User responses are not uniform - design is extremely important. For example in this question for a consumer app which I designed, a large difference. Implementing differently to user expectations could lead to higher cognitive load, and certainly appears in retention/usage rates.
 
 (maybe remove or only keep RSE point)
 Software behaviour is a major component of scientific software and a RSE skill. Generally we are unforgiving to software: if it behaves inconsistently (makes an error or miscalculation) we are reticent to use it ever again, and if we are confused, we want to avoid it. The problem is, the way you use your own software may differ from other users: they may encounter problems you don't. Some of these can be avoided by following best practise principles described here and established interface design and usability research; others can only be unearthed by tests.
 
 The most important [actionable design guidance for general usability](#good-design-requires-consistently---use-a-design-kit-for-that) in scientific software
 
-General Usability actionable advice: [usability heruistics](#usability-heuristics-for-software) for our direct actionable guidance.
+General Usability actionable advice: [usability heuristics](#usability-heuristics-for-software) for our direct actionable guidance.
 
 Workflow scientific software advice: [Workflow/Complex Scientific Software](../usability_scientific_workflows/README.md)
 
@@ -19,9 +19,6 @@ For existing projects you have became aware of needing to manage issues read abo
 
 ### What is usability for scientific software?
 Usable software saves times for new users which can make research proceed faster. Usable software achieves the goal of the user with the execution and interaction of the software mapping and working with their modelling of their scientific domain and what they want to achieve.
-
-More usable software increases productivity of using your software, **saves users time to conduct tasks** (24% on Desktop in Park et al (2019) for the "Basic Laboratory Information System" software).
-
 Part of user testing is finding **what is confusing the user or frustrating them** - these seconds of being unsure or what is unsmooth make an incredible difference for how many people will share and enjoy your software (which helps them recommend it).
 
 Different usability techniques apply to extensive/[highly configurable workflow software](../usability_scientific_workflows/README.md) (batch/experiment running/simulating), from other applications (e.g. data exploration/dashboards)
@@ -33,7 +30,7 @@ And especially **for research**, you have the opportunity for you and your users
 We want to bring the software closer to what the user expects and to be easier to understand and operate.
 
 ### Usability Heuristics for software
-A close-to-timeless resoruce for user interfaces is [Nielsens 10 Usability Heuristics](https://pdfs.semanticscholar.org/5f03/b251093aee730ab9772db2e1a8a7eb8522cb.pdf) (Nielsen, 1998 & 2005), 5 of which are paraphrased below:
+A close-to-timeless resource for user interfaces is [Nielsens 10 Usability Heuristics](https://pdfs.semanticscholar.org/5f03/b251093aee730ab9772db2e1a8a7eb8522cb.pdf) (Nielsen, 1998 & 2005), 5 of which are paraphrased below:
 ![Nielsen’s usability principles](../assets/images/nielsensPrinciples5.png)
 
 ### Specifically beneficial for scientific software
@@ -57,7 +54,7 @@ Design is about prioritising information. WE all struggle with high cognitive lo
 
 if your application has a view that is too complicated, it will become unusable for new users, which can reduce usage, and design can often benefit it strongly.
 
-We can apply rules to our use of use colour, spacing and information correctness/appearnace on our software is correct and communicates in ways users understand to help make our software more approachable.
+We can apply rules to our use of use colour, spacing and information correctness/appearance on our software is correct and communicates in ways users understand to help make our software more approachable.
 Aesthetic appealing software (using consistent colours)  is preferred by observers - important for when people are considering your software or if it should be supported
 
 ![Primary, Secondary and Success buttons before styling changes](../assets/images/buttons-before.png)
@@ -86,18 +83,10 @@ Remember to use what libraries offer you to help manage cognitive load via desig
 ![img_2.png](https://shiny.posit.co/r/articles/build/layout-guide/pages.png)
 Above: Page Layouts from [https://shiny.posit.co/r/articles/build/layout-guide/](https://shiny.posit.co/r/articles/build/layout-guide/)
 
-#### Be "consistent" with where users expect to find certain interface objects(e.g. button location)
-`This is most common feedback I give to scientists: Review if the order you added interface objects in on the page matches what users expect!`
-Often users will not be able to put into words that this is the issue - they can feel a block, be unabel to express, but it does not "feel right". Search out similar software.
-
-On phones, we expect buttons towards the bottom or the right 
-
-(Figure here: common vs uncommon buttons + familiar vs unfamiliar location for buttons)
-
 ### How does design have an impact on scientific software?
 
 As well as saving time (Park, 2019) or increasing user productivity, after redesign, scientific software specifically can reduce user errors:
-Karlovská et al. (2023), ""Redesigning Graphical User Interface of Open-Source Geospatial Software in a Community-Driven Way: A Case Study of GRASS GIS."”"
+Karlovská et al. (2023), "Redesigning Graphical User Interface of Open-Source Geospatial Software in a Community-Driven Way: A Case Study of GRASS GIS."
 
 Lee and Koubek (2010) found that aesthetics affected **preference for simulated applications** before use; after use, both aesthetics and usability mattered. This supports focusing on **both design and usability**  when designing software.
 
@@ -114,9 +103,20 @@ Design lets you highlight what is key with large size, bold. This is happening b
 
 when you have less UI elements displayed, you can make space around them so the eye is more drawn to them.
 
-If the user is not clear on what to do, it takes more cognitive load for them to user your software. Consumer commercial research shows this leads to more early user abandonment.
+If the user is not clear on what to do, it takes more cognitive load for them to use your software. Consumer commercial research shows this leads to more early user abandonment.
 
-Really good software has people spreading positive reputation and awareness of you and your lab because of what it clearly does.
+Great software spreads positive reputation and awareness of you and your lab because of what it clearly does.
+
+![Design information hierarchy](../assets/diagrams/design-information-hierarchy.svg)
+
+#### Be "consistent" with where users expect to find certain interface objects(e.g. button location)
+`This is most common feedback I give to scientists: Review if the order you added interface objects in on the page matches what users expect!`
+Often users will not be able to put into words that this is the issue - they can feel a block, be unable to express, but it does not "feel right". Search out similar software.
+
+On phones, we expect buttons towards the bottom or the right
+
+(Figure here: common vs uncommon buttons + familiar vs unfamiliar location for buttons)
+
 
 #### Domain-specific steps in your UI in a process --> Lower cognitive load for users
 
@@ -134,19 +134,19 @@ and to categorise and cordon off functionality so it is clear to use the applica
 - Users feel intimidated by seeing too much content at once, particularly if it is not clear what is important or "first". 
 
 ### Feature Growth - Feature Fatigue
-**Based on actual user reviews, more capabilities does not equal more usability (Thomspon et al, 2005)**
+**Based on actual user reviews, more capabilities does not equal more usability (Thompson et al, 2005)**
 
 
 ### Timing of usability/design changes
 Usability does not tend to be worst at the start as discussed above.
 
-Yet, the mid/end part of your project is typically when it feels hard to justify or plan for work packages around usbility:
+Yet, the mid/end part of your project is typically when it feels hard to justify or plan for work packages around usability:
 
 The problem is often that meeting A has an agenda of:
 - Pipeline code decision that blocks everything else
 - Data collection progress
 
-Adding "Design feedback/user testing" - which at that point in time is conversely not a blocker to project progress - feels unjustiable
+Adding "Design feedback/user testing" - which at that point in time is conversely not a blocker to project progress - feels unjustifiable
 
 ![Fitness changes after simplification (Lee et al., 2006, Figure 3)](../assets/images/lee2006-fitness-after-simplification.png)
 
