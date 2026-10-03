@@ -36,29 +36,28 @@ better would be a GIF, perhaps of SMART RODENT where one can scroll through each
 
 
 ### What is Design for scientific software?
-Design is about prioritising information. WE all struggle with high cognitive load, but bad design or high amounts of visual information in your interface can increase cognitive load (Harper, 2009)
+Design is what you see being clear for you to understand and interact with.
+Bad design or high amounts of visual information in your interface can increase cognitive load (Harper, 2009)
 
 if your application has a view that is too complicated, it will become unusable for new users, which can reduce usage, and design can often benefit it strongly.
 
-We can apply rules to our use of use colour, spacing and information correctness/appearance on our software is correct and communicates in ways users understand to help make our software more approachable.
-Aesthetic appealing software (using consistent colours)  is preferred by observers - important for when people are considering your software or if it should be supported
+Using consistent font, borders and variations on colour transparency/brightness with fewer colour hues makes the application **feel more usable**, even if the buttons actions, positions and text content does not change. AI can  often be consistent for each feature you ask, but not for all of them together.
 
 ![Primary, Secondary and Success buttons before styling changes](../assets/images/buttons-before.png)
 
 ![Primary, Secondary and Success buttons after styling changes](../assets/images/buttons-after.png)
 
-Using consistent font, borders and variations on colour transparency/brightness with fewer colour hues) makes the application **feel more usable**, even if the buttons actions, positions and text content does not change
+Make sure not to overuse solely text in your application. For example, for buttons - icons do make sense for very common actions - save floppy disk, folder for files, plus for new help. Grouping buttons together can make their purpose clearer and easier to learn, or using colour with them.
 
-Be consistent with other applications: Use save and folder icons rather than "File -> Save/Load" and place them at the top left on a thin bar. Sometimes without visual indicators that match the model the user has, users do not even know that action is possible, a common finding in usability testing.
+Design is important for usability because it covers the perception and clarity side. Unusable/badly design softare makes us **slower, and can lead to more mistakes**, which is why studies like (X) found a 24% time speed up on tasks when redesigning software. It relates to human attention/cognitive psychology: if we see two objects which appear equal we do not know which to focus on, and we prefer to be directed to one over the other.
 
-Design is important for usability because it covers the perception and clarity side. What is unclear we interact with **slower, and with more mistakes**. Improving an application often therefore makes it more usable. Regarding perception, avoiding using old style libraries is also often overlooked by scientists in our experience (e.g. Bootstrap 2 --> Bootstrap 4)
+Even changing from a previous library version to a new library version can increase how many people use your software.
 
 
+### Design kits automatically apply kye recommendations
+Design kits provide consistent components (always the same button "look and feel").
 
-### Good design requires consistently - use a Design kit for that:
-
-Here are three recommended neutral defaults:
-
+Standard design kits:
 - For web applications: [tailwindcss](https://tailwindcss.com/)
 - For R applications: [Shiny](https://shiny.posit.co/)/[bslib](https://rstudio.github.io/bslib/)
 - For Python: [Streamlit](https://streamlit.io/)/[dash+mantine](https://www.dash-mantine-components.com/)
