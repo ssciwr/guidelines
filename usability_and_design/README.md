@@ -1,33 +1,19 @@
 ## Usability and Design Guidebook for Scientific Software
+Redesigning your software can **saves users time to conduct tasks** (for example, tasks were completed 24% on Desktop devices in Park et al (2019) for the "Basic Laboratory Information System" software).
+Good design increases perception of use, satisfaction and contributes to usability.
 
-An overview of common ways to improve your software usability and design covering different sub-types of scientific software, common findings from providing UI feedback to scientists at the UI. Good usability can **saves users time to conduct tasks** (24% on Desktop devices in Park et al (2019) for the "Basic Laboratory Information System" software, and good design increases satisfaction, perception of use and contributes to usability.
+Generally we are unforgiving to software: if it behaves inconsistently (makes an error or miscalculation) we are reticent to use it ever again, and if we are confused, we want to avoid it. The problem is, the way you use your own software may differ from other users: they may encounter problems you do not as you habitualyl always chose other paths or combinations of options
 
-My experience creating a consumer app with thousands of monthly users was that the rate who would **return to use again** and to **purchase subscriptions** could double after applying usability principles, improving design, and making flow changes based on [user testing](../user_testing/README.md)
-User responses are not uniform - design is extremely important. For example in this question for a consumer app which I designed, a large difference. Implementing differently to user expectations could lead to higher cognitive load, and certainly appears in retention/usage rates.
-
-(maybe remove or only keep RSE point)
-Software behaviour is a major component of scientific software and a RSE skill. Generally we are unforgiving to software: if it behaves inconsistently (makes an error or miscalculation) we are reticent to use it ever again, and if we are confused, we want to avoid it. The problem is, the way you use your own software may differ from other users: they may encounter problems you don't. Some of these can be avoided by following best practise principles described here and established interface design and usability research; others can only be unearthed by tests.
-
-The most important [actionable design guidance for general usability](#good-design-requires-consistently---use-a-design-kit-for-that) in scientific software
-
-General Usability actionable advice: [usability heuristics](#usability-heuristics-for-software) for our direct actionable guidance.
-
-Workflow scientific software advice: [Workflow/Complex Scientific Software](../usability_scientific_workflows/README.md)
-
-For existing projects you have became aware of needing to manage issues read about [maintaining usability ](#how-usability-issues-grow-over-time).
 
 
 ### What is usability for scientific software?
-Usable software saves times for new users which can make research proceed faster. Usable software achieves the goal of the user with the execution and interaction of the software mapping and working with their modelling of their scientific domain and what they want to achieve.
-Part of user testing is finding **what is confusing the user or frustrating them** - these seconds of being unsure or what is unsmooth make an incredible difference for how many people will share and enjoy your software (which helps them recommend it).
+Usable software achieves the goal of the user with the execution and interaction of the software mapping and working with their modelling of their scientific domain and what they want to achieve.
+
+We want to bring the software closer to what the user expects. To make it easier to understand and operate. Then, if your users really love your software and find it useful, you can push your area of science forward. Usabiltiy is important for science becuase software often harbours hundreds of hours of trial-by-error efforts to work effectively for a paper or lab group, but remains specific and tied to that research, or user unfriendly with bad usability, and so that software goes unused. 
+
+[User testing](../user_testing/README.md) includes finding **what is confusing the user or frustrating them** - these seconds of being unsure or what is unsmooth make an incredible difference for how many people will share and enjoy your software (which helps them recommend it). Usability usually means fixing those gaps - whether it is the order of how your software works, the wording it uses, the defaults, the amount of information that is shown at once, or where information is (mis)located on the application.
 
 Different usability techniques apply to extensive/[highly configurable workflow software](../usability_scientific_workflows/README.md) (batch/experiment running/simulating), from other applications (e.g. data exploration/dashboards)
-
-As the software creators (and as experts), we often overlook something instinctive to us which is confusing to newcomers. And we confuse that what is correct/functional is usable.
-
-And especially **for research**, you have the opportunity for you and your users to **build (scientific) social capital*** and become important for moving your field forward faster than it otherwise would, technologically.
-
-We want to bring the software closer to what the user expects and to be easier to understand and operate.
 
 ### Usability Heuristics for software
 A close-to-timeless resource for user interfaces is [Nielsens 10 Usability Heuristics](https://pdfs.semanticscholar.org/5f03/b251093aee730ab9772db2e1a8a7eb8522cb.pdf) (Nielsen, 1998 & 2005), 5 of which are paraphrased below:
@@ -38,9 +24,9 @@ A close-to-timeless resource for user interfaces is [Nielsens 10 Usability Heuri
 ![img.png](img.png) Above: Provide autocomplete available options
 
 
-**Adjustable dials that react instantly - reactive outputs**
-We common see scientists, even when prompting AI, create interfaces where one first sets many values, then clicks a button, and then sees the results.
-While this flow is valid, seeing instant changes/results is an upgrade
+**Provide reactively instantly shown system states**
+Do not make the user provide inputs then click submit and wait to see the results, especially for continous data (e.g. climate data over several days)
+Let the state and results react to changing the inputs live. Where computationally rapid and cheap, update dependent information instantly upon input changes.
 
 ![img_1.png](img_1.png)
 Above: A timeline you can drag allows users to move along data points to see differences in their working memory rather than needing to choose each date.
@@ -127,34 +113,15 @@ Provide a consistent "back" or "undo" option so the user does not get into a stu
 
 ### Managing usability and design
 #### How usability issues grow over time
-We don't have a complete picture effect of experience users have. It is easy to possess and expert blindspot and not realize that a few small changes to suit typical ordering
-and to categorise and cordon off functionality so it is clear to use the application could make your tool understandable and usable for many people.
+We don't have a complete picture effect of experience users have. It is easy to possess and expert blindspot and not realize that we have grown and habituated to hwo the software is, even if some of it's options or inputs are coutnerintuitive for most people. Sometimes, just one or two sessions yields changes that can increase the amount of users who keep using your software by a major amount.
 
-- AI in particular when given many additive features can produce them quickly, but lots of visual space clutters the UI and can make it less usable. For example, AI might use several different colours or types of button which contradicts the design guideline and Nielsens Heuristic to have appearance consistently.
+- AI in particular when given many additive features can produce them quickly, but lots of visual space clutters the UI and can make it less usable. For example, AI might use several different colours or types of button which contradicts the design guideline and Nielsens Heuristic to have appearance consistently - but  **Based on actual user reviews, more capabilities does not equal more usability (Thompson et al, 2005)**,
+
 - Users feel intimidated by seeing too much content at once, particularly if it is not clear what is important or "first". 
 
-### Feature Growth - Feature Fatigue
-**Based on actual user reviews, more capabilities does not equal more usability (Thompson et al, 2005)**
+Research by Lee et al., (2006, Figure 3) suggests usability is more effective planned for a mid-point date; this strongly complements this point.
+![Fitness changes after simplification](../assets/images/lee2006-fitness-after-simplification.png)
 
-
-### Timing of usability/design changes
-Usability does not tend to be worst at the start as discussed above.
-
-Yet, the mid/end part of your project is typically when it feels hard to justify or plan for work packages around usability:
-
-The problem is often that meeting A has an agenda of:
-- Pipeline code decision that blocks everything else
-- Data collection progress
-
-Adding "Design feedback/user testing" - which at that point in time is conversely not a blocker to project progress - feels unjustifiable
-
-![Fitness changes after simplification (Lee et al., 2006, Figure 3)](../assets/images/lee2006-fitness-after-simplification.png)
-
-Solution 1: **Schedule in advance to a specific date, separately, and with new/other users**
-
-Solution 2: **Show variants early\** on to have fallbacks if changes in the project need different interface/data**
-
-Solution 3: Seek feedback ahead\** of the actual implementation coding/data model decisions so you get feedback on look & feel and the task and can carry that information forward into the real implementation(not as effective typically as testing against the real application)
 
 
 ----
